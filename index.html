@@ -7,41 +7,43 @@
     <title>PANADERIA</title>
     <!-- CSS only -->
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor" crossorigin="anonymous">
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
     <link rel="stylesheet" href="./assets/css/style.css">
     <link rel="shortcut icon" href="./assets/img/logopaint.jpg">
 </head>
 <body class="container-fluid">
-    <nav class="navbar navbar-expand-lg bg-light">
+    <nav class="navbar navbar-expand-lg text-bg-light ">
         <div class="container-fluid ">
-          <a class="navbar-brand" href="/index.html"><img src="./assets/img/logopaint.jpg" alt=""></a>
+          <a class="navbar-brand" href="/index.html"><img data-aos="fade-right" data-aos-offset="300" data-aos-easing="ease-in-sine" src="./assets/img/logopaint.jpg" alt=""></a>
           <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
             <span class="navbar-toggler-icon"></span>
           </button>
-          <div class="collapse navbar-collapse " id="navbarNavDropdown">
+          <div class="collapse navbar-collapse justify-content-end " id="navbarNavDropdown">
             
             <ul class="nav nav-pills nav-justified">
               <li class="nav-item">
-                <a class="nav-link active" aria-current="page" href="./index.html">Inicio</a>
+                <a class="nav-link active" aria-current="page" href="./index.html">INICIO</a>
               </li>
               <li class="nav-item">
-                <a class="nav-link" href="./assets/pages/contactanos.html">Contactanos</a>
+                <a class="nav-link" href="./assets/pages/contactanos.html">CONTACTANOS</a>
               </li>
               <li class="nav-item">
-                <a class="nav-link" href="./assets/pages/nosotros.html">Nosotros</a>
+                <a class="nav-link" href="./assets/pages/nosotros.html">NOSOTROS</a>
               </li>
               <li class="nav-item">
-                <a class="nav-link" href="./assets/pages/productos.html">Productos</a>
+                <a class="nav-link" href="./assets/pages/productos.html">PRODUCTOS</a>
               </li>
-              
               <li class="nav-item">
-                <a class="nav-link" href="./assets/pages/nosotros.html">Sucursal</a>
+                <a class="nav-link" href="./assets/pages/nosotros.html">SUCURSAL</a>
               </li>
             </ul>
           </div>
         </div>
       </nav>
      <header>
-        <h1 class="text center my-2 P-1 text-center titulo">PANADERIA DOÑA CATITA</h1>
+        <h1 data-aos="flip-left"
+        data-aos-easing="ease-out-cubic"
+        data-aos-duration="2000" class="text center my-2 P-1 text-center titulo">PANADERIA DOÑA CATITA</h1>
         <div  id="carouselExampleFade" class="carousel slide carousel-fade" data-bs-ride="carousel">
             <div class="carousel-inner">
               <div class="carousel-item active">
@@ -72,7 +74,7 @@
           </div>
      </header>
 
-     <main>
+     <main class=>
         <h2 class="text center my-4 P-3 text-center subtitulo">PRODUCTOS</h2>
 
         <div class="btn-group " role="group" aria-label="Basic checkbox toggle button group">
@@ -87,7 +89,7 @@
 
         
 
-        <div class="cards d-flex flex-wrap justify-content-around">
+        <div  class="cards d-flex flex-wrap justify-content-around">
             <div class="card text-bg-dark my-2" style="width: 18rem;">
             <img src="./assets/img/FACTURAS.jpg" class="card-img-top" alt="...">
             <div class="card-body">
@@ -175,14 +177,13 @@
                   <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
                 </div>
               </div>
-              
-              
-          </div>
+            </div>
         </div>
+
      </main>
      <aside></aside>
      <div class="container">
-        <footer class="d-flex flex-wrap justify-content-between align-items-center py-3 my-4 border-top">
+        <footer class="d-flex flex-wrap justify-content-between align-items-center py-3 my-4 border-top ">
           <div class="col-md-4 d-flex align-items-center">
             <a href="/" class="mb-3 me-2 mb-md-0 text-muted text-decoration-none lh-1">
               <svg class="bi" width="30" height="24"><use xlink:href="#bootstrap"/></svg>
@@ -207,5 +208,10 @@
 
 <!-- JavaScript Bundle with Popper -->
 <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.bundle.min.js" integrity="sha384-pprn3073KE6tl6bjs2QrFaJGz5/SUsLqktiwsUTF55Jfv3qYSDhgCecCxMW52nD2" crossorigin="anonymous"></script>    
+<script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+<script>
+  AOS.init();
+</script>
 </body>
+
 </html>

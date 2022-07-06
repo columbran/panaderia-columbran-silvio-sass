@@ -1,21 +1,42 @@
-*{
-    margin: 0%;
-    padding: 0%;
-    
-}
-.btn{
-    background-color: rgb(0, 145, 255);
-    color: white;
+* {
+  margin: 0;
+  padding: 0;
 }
 
-.titulo{
-    font-size: 62px;
-    font-family: Brush Script MT;
-    color: rgb(121, 174, 221);
+.btn {
+  background-color: rgb(0, 145, 255);
+  color: white;
 }
 
-.subtitulo{
-    font-size: 62px;
-    font-family: Brush Script MT;
-    color: rgb(121, 174, 221);
+.titulo {
+  font-size: 62px;
+  font-family: Brush Script MT;
+  color: rgb(121, 174, 221);
 }
+
+.subtitulo {
+  font-size: 62px;
+  font-family: Brush Script MT;
+  color: rgb(121, 174, 221);
+}
+
+.nosotros {
+  background-color: beige;
+}
+
+.imagen-fondo {
+  background-image: url(/assets/img/pan3.jpg);
+}
+
+.nosotros {
+  background-color: #FBAB7E;
+}
+
+h2 {
+  color: brown;
+}
+
+.gradiente {
+  background: linear-gradient(90deg, #e3ffe7 0%, #d9e7ff 100%);
+}
+

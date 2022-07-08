@@ -1,0 +1,11 @@
+@mixin propiedades ($ancho,$alto,$letra) {
+    width: $ancho;
+    height: $alto;
+    color: $letra;
+}
+
+@mixin cajas ($flex,$row,$center) {
+    display: $flex;
+    flex-direction: $row;
+    justify-content: $center;
+}

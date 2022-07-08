@@ -2,9 +2,11 @@
     margin: 0;
     padding: 0;
 }
+ 
+@import "variables";
+@import "mixing";
 
-$colorDeLetras:rgb(121, 174, 221);
-$TamanioTitulo:62px;
+
 
 .btn{
     background-color: rgb(0, 145, 255);
@@ -31,23 +33,35 @@ $TamanioTitulo:62px;
 
 }
 .nosotros {
-  
-    background-color: #FBAB7E;
-  
-  
-  }
+   background-color: #FBAB7E;
+}
   
   h2{
     color: brown;
   }
   
   .gradiente{
-  
-    background: linear-gradient(90deg, #e3ffe7 0%, #d9e7ff 100%);;}
+      background: linear-gradient(90deg, #e3ffe7 0%, #d9e7ff 100%);
+    }
+
+ 
+ 
+ @each $key , $var in $coloresbtn {
+    .btn-#{key}{
+        background-color: $var;
+    }
+ }
+
+
+
+    
+
+    
+ 
     
     
    
-    .gradiante-e{
-      background: linear-gradient(90deg, #4b6cb7 0%, #182848 100%);
-    }
     
+   
+
+   

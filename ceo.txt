@@ -1,1 +1,4 @@
 Agregue title, etiquetas meta descrption y keywords; optimice y complete el ALT  todas las imagenes de todas las hojas.
+Descripción: mediante la etiqueta meta name description, agregué el siguiente párrafo que explica en pocas palabras el contenido de mi sitio: “panaderia y confiteria doña catita, elaboracion artesanal tu pan de todos los días"
+Palabras clave: mediante la etiqueta meta name keywords, agregué las palabras clave que acompañarán a todas las páginas de mi sitio: "panaderias, panaderia, confiteria, pasteleria, lomas del mirador, productos, dulce, salado, facturas, galletitas, desayunos, tortas, pan, sandwiches de miga, prepizzas"
+Encabezado: para el encabezado del h1 utilicé el texto “PANADERIA DOÑA CATITA” para el encabezado de mi pagina contactanos h1 utilicé el texto "CONTACTANOS" para nosotros el h1 NOSOTROS productos "PRODUCTOS" Y sucursal " NOS ENCONTRAMOS" los title coinciden con los nombres de cada pagina

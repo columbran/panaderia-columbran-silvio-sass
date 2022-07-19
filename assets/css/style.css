@@ -36,6 +36,17 @@ h2 {
   background: linear-gradient(90deg, #e3ffe7 0%, #d9e7ff 100%);
 }
 
+.fondoform {
+  background-image: url(/assets/img/fonfopan2.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+}
+
+.direccion {
+  color: brown;
+}
+
 .btn-key {
   background-color: rgb(0, 145, 255);
 }
@@ -47,14 +58,3 @@ h2 {
 .btn-key {
   background-color: #3a5795;
 }
-
-.fondoform{
-  background-image: url(/assets/img/fonfopan2.jpg); 
-  background-repeat: no-repeat;
-  background-size: cover;
-  background-position: center;
-}
-
- .direccion{
-  color: brown;
- }

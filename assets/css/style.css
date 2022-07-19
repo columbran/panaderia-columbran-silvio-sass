@@ -24,10 +24,6 @@
   background-color: beige;
 }
 
-.imagen-fondo {
-  background-image: url(/assets/img/pan3.jpg);
-}
-
 .nosotros {
   background-color: #FBAB7E;
 }
@@ -51,3 +47,14 @@ h2 {
 .btn-key {
   background-color: #3a5795;
 }
+
+.fondoform{
+  background-image: url(/assets/img/fonfopan2.jpg); 
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+}
+
+ .direccion{
+  color: brown;
+ }

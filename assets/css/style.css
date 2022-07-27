@@ -9,23 +9,15 @@
 }
 
 .titulo {
-  font-size: 62px;
+  font-size: 4.5vw;
   font-family: Brush Script MT;
   color: rgb(121, 174, 221);
 }
 
 .subtitulo {
-  font-size: 62px;
+  font-size: 4.5vw;
   font-family: Brush Script MT;
   color: rgb(121, 174, 221);
-}
-
-.nosotros {
-  background-color: beige;
-}
-
-.nosotros {
-  background-color: #FBAB7E;
 }
 
 h2 {

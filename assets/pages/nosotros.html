@@ -11,12 +11,12 @@
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor" crossorigin="anonymous">
     <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">   
     <link rel="stylesheet" href="../css/style.css">
-    <link rel="shortcut icon" href="../img/logopaint.jpg">
+    <link rel="shortcut icon" href="../img/logotra.png">
 </head>
 <body class="container-fluid">
     <nav class="navbar navbar-expand-lg bg-light">
         <div class="container-fluid">
-          <a class="navbar-brand" href="/index.html"><img data-aos="fade-right" data-aos-offset="300" data-aos-easing="ease-in-sine" src="../img/logopaint.jpg" alt="imagen logo"></a>
+          <a class="navbar-brand" href="/index.html"><img data-aos="fade-right" data-aos-offset="300" data-aos-easing="ease-in-sine" src="../img/logotra.png" alt="imagen logo"></a>
           <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
             <span class="navbar-toggler-icon"></span>
           </button>
@@ -46,10 +46,37 @@
         <H1 data-aos="flip-left"
         data-aos-easing="ease-out-cubic"
         data-aos-duration="2000" class="text-center my-5 subtitulo">NOSOTROS</H1>
+        
         <div class="container col-xxl-8 px-4 py-5 nosotros">
             <div class="row flex-lg-row-reverse align-items-center g-5 py-5">
               <div class="col-10 col-sm-8 col-lg-6">
-                <img src="../img/local.jpg" class="d-block mx-lg-auto img-fluid" alt="Bootstrap Themes" width="700" height="500" loading="lazy">
+                
+                <div id="carouselExampleIndicators" class="carousel slide" data-bs-ride="true">
+                  <div class="carousel-indicators">
+                    <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+                    <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1" aria-label="Slide 2"></button>
+                    <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2" aria-label="Slide 3"></button>
+                  </div>
+                  <div class="carousel-inner">
+                    <div class="carousel-item active">
+                      <img src="/assets/img/local.jpg" class="d-block w-100" alt="...">
+                    </div>
+                    <div class="carousel-item">
+                      <img src="/assets/img/carru2.jpg" class="d-block w-100" alt="...">
+                    </div>
+                    <div class="carousel-item">
+                      <img src="/assets/img/carru3.jpg" class="d-block w-100" alt="...">
+                    </div>
+                  </div>
+                  <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="prev">
+                    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                    <span class="visually-hidden">Previous</span>
+                  </button>
+                  <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="next">
+                    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                    <span class="visually-hidden">Next</span>
+                  </button>
+                </div> 
               </div>
               <div class="col-lg-6">
                 <h2 class="display-5 fw-bold lh-1 mb-3">¿Quienes somos?</h2>
@@ -61,6 +88,10 @@
               </div>
             </div>
           </div>
+
+          
+
+          
         
 
      </main>

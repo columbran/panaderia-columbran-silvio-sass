@@ -20,15 +20,19 @@
   color: rgb(121, 174, 221);
 }
 
+.card {
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.carousel {
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
 h2 {
   color: brown;
 }
 
-.gradiente {
-  background: linear-gradient(90deg, #e3ffe7 0%, #d9e7ff 100%);
-}
-
-.fondoform {
+.fondoForm {
   background-image: url(../img/fonfopan2.jpg);
   background-repeat: no-repeat;
   background-size: cover;
